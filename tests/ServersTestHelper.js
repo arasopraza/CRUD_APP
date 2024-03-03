@@ -8,7 +8,7 @@ const ServersTestHelper = {
     const userPayload = {
       id: 'user-123',
       username: 'developer',
-      role: 'User'
+      role: 'Admin'
     };
 
     const existingUser = await UsersTableTestHelper.findUsersById(userPayload.id);
