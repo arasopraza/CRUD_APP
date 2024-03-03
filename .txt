@@ -1,0 +1,52 @@
+// Soal No 1
+select * from employees;
+
+// Soal No 2
+select count(*) from employees where job_title = 'Manager';
+
+// Soal No 3
+select name, salary from employees where department = 'Sales' or department = 'Marketing';
+
+// Soal No 4
+select * from employees 
+join sales_data on sales_data.employee_id = employees.employee_id
+order by sales_data.sales DESC
+limit 5
+
+// Soal No 5
+SELECT avg(salary)
+FROM employees
+WHERE joined_date >= CURRENT_DATE - INTERVAL '5 year';
+
+// Soal No 6
+SELECT e.name, e.salary, d.avg_salary
+FROM employees e
+JOIN (
+    SELECT department, AVG(salary) AS avg_salary
+    FROM employees
+    GROUP BY department
+    HAVING AVG(salary) > (SELECT AVG(salary) FROM employees)
+) d ON e.department = d.department;
+
+// Soal No 7
+SELECT name, sales, RANK() OVER (ORDER BY sales DESC) AS ranking
+FROM (
+    SELECT e.name, COALESCE(SUM(sd.sales), 0) AS sales
+    FROM employees e
+    LEFT JOIN sales_data sd ON e.employee_id = sd.employee_id
+    GROUP BY e.name
+) AS sales_summary;
+
+// Soal No 8
+CREATE OR REPLACE FUNCTION get_employee_salary_by_department(department_name VARCHAR)
+RETURNS TABLE (name VARCHAR, total_salary INT) AS
+$$
+BEGIN
+    RETURN QUERY
+    SELECT e.name, SUM(e.salary) AS total_salary
+    FROM employees e
+    WHERE e.department = department_name
+    GROUP BY e.name;
+END;
+$$
+LANGUAGE plpgsql;
