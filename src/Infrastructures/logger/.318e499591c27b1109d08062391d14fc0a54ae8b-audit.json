@@ -1,0 +1,70 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/.318e499591c27b1109d08062391d14fc0a54ae8b-audit.json",
+    "files": [
+        {
+            "date": 1709218111090,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-02-29-21.log",
+            "hash": "a0b713b56853b8881efeceeb415c435b8021801f14978e79d0001e80a790bae9"
+        },
+        {
+            "date": 1709218920649,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-02-29-22.log",
+            "hash": "adbcb727d28ac9df173f3c927936b225763755d451fb643462d679feff50319f"
+        },
+        {
+            "date": 1709225118583,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-02-29-23.log",
+            "hash": "70db60e8f9d1ef771e560a69a47be145c0bea31d79a586be1b6bd2257dbd9c57"
+        },
+        {
+            "date": 1709226187564,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-01-00.log",
+            "hash": "3451e89f69fd51185654023dcb6460ce10e83b09c77695b9777cb28dabf947df"
+        },
+        {
+            "date": 1709355394188,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-02-11.log",
+            "hash": "645d342cc69c7366c01e08fdfb504f3938a158a259b9327602b0cadff36e8530"
+        },
+        {
+            "date": 1709355784043,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-02-12.log",
+            "hash": "294c1aa7cb78bfd65c845e620f87ea050fa5f24f53809aac6ba20354272ee1e8"
+        },
+        {
+            "date": 1709359200588,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-02-13.log",
+            "hash": "a8b02fe2c4fccfc6b793287943d4de0034be39a93e600f81ed5ae8c46af30140"
+        },
+        {
+            "date": 1709427400018,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-03-07.log",
+            "hash": "79c399174540b68653be36b90bee9c6f9bfc2d3ec9fa0fdd968185bac721905f"
+        },
+        {
+            "date": 1709427770729,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-03-08.log",
+            "hash": "5511bab2ae791c30d31c82e14a5716b173512f7e0f4f713989579fc92518f1a7"
+        },
+        {
+            "date": 1709431335543,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-03-09.log",
+            "hash": "15a357f4caf454e05ad0ee642627981bd7452389d4f4a3decbc98aaf919b8578"
+        },
+        {
+            "date": 1709434833572,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-03-10.log",
+            "hash": "b652a11d0febede694918c035825f816ab5d02af4730fc932e2f50ebd033fb5b"
+        },
+        {
+            "date": 1709438403289,
+            "name": "/home/aras/Downloads/forum-api-starter-project/src/Infrastructures/logger/application-2024-03-03-11.log",
+            "hash": "55c04cecd0e096dcdd2703a99ddc89fd3a2dad9e73758bf6e87807f526d96fcc"
+        }
+    ],
+    "hashType": "sha256"
+}
